@@ -1,4 +1,3 @@
-import urllib3
 from urllib.request import urlopen
 import json
 from datetime import datetime
