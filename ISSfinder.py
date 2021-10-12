@@ -14,7 +14,7 @@ latAndLong_no_space = iss_processed_data['iss_position']['latitude'] + "," + iss
 maps_link = "https://www.google.com/maps/search/?api=1&query=" + latAndLong_no_space #Google Maps Link
 try: #Try block works if there is an address (when ISS is over land)
     location = geolocator.reverse(latAndLong)
-    print (location.address)
+    print ("The International Space Station is currently near: ", location.address)
     print ("Latitude: ", iss_processed_data['iss_position']['latitude'])
     print ("Longitude: ", iss_processed_data['iss_position']['longitude'])
     print ("Check out the current location on Google Maps: ",  maps_link)
