@@ -1,5 +1,5 @@
 # Python-ISS-Finder
-International Space Station finder built in Python.  
+International Space Station finder built with Python.  
 Uses [ISS Location API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/) and [GeoPy](https://geopy.readthedocs.io/en/stable/).
 
 ## Features
